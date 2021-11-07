@@ -5,9 +5,9 @@ using UnityEngine.AI;
 
 public class HumanController : MonoBehaviour {
 
-    float health = 3;
-    float speed = 10f;
-    float timer;
+    public float health = 3;
+    public float speed = 10f;
+    public float timer;
     public float InfectionDistanceRun = 10.0f;
     private NavMeshAgent humanAgent;
     public Rigidbody prefabInfection;
